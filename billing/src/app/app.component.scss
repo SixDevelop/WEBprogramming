@@ -1,0 +1,25 @@
+body{
+ margin: 0;
+ padding: 0;
+}
+
+hr{
+    width: 80%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.billwindow{
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 55px 55px 37px 55px;
+    box-shadow: 0 0 8px rgba(73, 73, 73, 0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

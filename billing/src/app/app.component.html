@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="billwindow">
+    <form [formGroup]="payForm" (ngSubmit)="onSubmit()" class="loginForm">
+      <h2>Enter your card data</h2>
+      <hr>
+      <p>enter your name</p>
+      <input formControlName="name" type="text" class="name">
+      <p>enter your card number</p>
+      <input formControlName="cardnum" type="text" class="cardnum">
+      <p>enter date</p>
+      <input formControlName="date" type="text" class="date">
+      <p>enter security code</p>
+      <input formControlName="securityCode" type="text" class="securitycode">
+      <br>
+      <button type="submit button">pay</button>
+    </form>
+  </div>
+</div>
